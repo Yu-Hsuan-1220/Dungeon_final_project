@@ -1,0 +1,23 @@
+#include "Object.h"
+#include<bits/stdc++.h>
+using namespace std;
+
+Object:: Object(){
+
+}
+Object::Object(string name,string tag){
+    this->name=name;
+    this->tag=tag;
+}
+void Object::setName(string name){
+    this->name = name;
+}
+void Object::setTag(string tag){
+    this->tag=tag;
+}
+string Object::getName(){
+    return name;
+}
+string Object::getTag(){
+    return tag;
+}
